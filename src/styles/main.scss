@@ -1,4 +1,4 @@
-$accent: #4285F4;
+$accent: #FF5021;
 
 @import "marble";
 
@@ -15,24 +15,9 @@ $accent: #4285F4;
 @import "templates/search";
 
 // Tutorial
-@import "templates/tutorial";.header {
-.header {
-	padding: 20px 0 0;
+@import "templates/tutorial";
 
-	@media (min-width: $screen-md-min) {
-		padding: 80px 0 0;
-	}
-// GitHub buttons
-
-.gh-btns {
-	background: rgba($primary, .07);
-	margin: 75px 0 0;
-	padding-bottom: 10px;
-	padding-top: 16px;
-}
-
-@media (min-width: $screen-md-min) {
-	.gh-btns {
-		margin-top: 140px;
-	}
-}
+// Custom
+@import "all";
+@import "guide";
+@import "landing";
