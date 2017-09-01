@@ -2221,8 +2221,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
           'class', 'container-hybrid');
         ie_open('h1', null, null,
             'class', 'title');
-          var dyn2 = opt_data.page.title;
-          if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
+          var dyn0 = opt_data.page.title;
+          if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2234,8 +2234,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'docs-content col-xs-16 col-md-9');
           ie_open('div', null, null,
               'class', 'guide-content');
-            var dyn3 = opt_data.content;
-            if (typeof dyn3 == 'function') dyn3(); else if (dyn3 != null) itext(dyn3);
+            var dyn1 = opt_data.content;
+            if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
           ie_close('div');
           if (opt_data.site.githubRepo) {
             $contribute(opt_data, null, opt_ijData);
@@ -2375,8 +2375,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('main', null, null,
         'class', 'content');
       $templateAlias1(opt_data, null, opt_ijData);
-      var dyn4 = opt_data.content;
-      if (typeof dyn4 == 'function') dyn4(); else if (dyn4 != null) itext(dyn4);
+      var dyn2 = opt_data.content;
+      if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
     ie_close('main');
   ie_close('div');
 }
@@ -11770,14 +11770,14 @@ function $topics(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-xs-16');
           ie_open('h1', null, null,
               'class', 'docs-home-top-title');
-            var dyn11 = opt_data.page.title;
-            if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
+            var dyn9 = opt_data.page.title;
+            if (typeof dyn9 == 'function') dyn9(); else if (dyn9 != null) itext(dyn9);
           ie_close('h1');
           ie_open('p', null, null,
               'class', 'docs-home-top-description');
             itext('Start learning how to leverage the power of ');
-            var dyn12 = opt_data.site.title;
-            if (typeof dyn12 == 'function') dyn12(); else if (dyn12 != null) itext(dyn12);
+            var dyn10 = opt_data.site.title;
+            if (typeof dyn10 == 'function') dyn10(); else if (dyn10 != null) itext(dyn10);
           ie_close('p');
         ie_close('div');
       ie_close('div');
@@ -11809,26 +11809,26 @@ function $topics(opt_data, opt_ignored, opt_ijData) {
               'class', 'col-md-12 col-md-offset-2 col-xs-16');
             ie_open('div', null, null,
                 'class', 'row');
-              var childIdList164 = opt_data.page.childIds;
-              var childIdListLen164 = childIdList164.length;
-              for (var childIdIndex164 = 0; childIdIndex164 < childIdListLen164; childIdIndex164++) {
-                var childIdData164 = childIdList164[childIdIndex164];
-                var topic__soy154 = opt_data.page.children[childIdData164];
-                if (! topic__soy154.hidden) {
+              var childIdList147 = opt_data.page.childIds;
+              var childIdListLen147 = childIdList147.length;
+              for (var childIdIndex147 = 0; childIdIndex147 < childIdListLen147; childIdIndex147++) {
+                var childIdData147 = childIdList147[childIdIndex147];
+                var topic__soy137 = opt_data.page.children[childIdData147];
+                if (! topic__soy137.hidden) {
                   ie_open('div', null, null,
                       'class', 'col-md-8 col-md-offset-0 col-xs-14 col-xs-offset-1');
                     ie_open('a', null, null,
                         'class', 'topic radial-out',
-                        'href', topic__soy154.url);
+                        'href', topic__soy137.url);
                       ie_open('div', null, null,
                           'class', 'topic-icon');
                         ie_void('span', null, null,
-                            'class', 'icon-16-' + topic__soy154.icon);
+                            'class', 'icon-16-' + topic__soy137.icon);
                       ie_close('div');
                       ie_open('h3', null, null,
                           'class', 'topic-title');
-                        var dyn13 = topic__soy154.title;
-                        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+                        var dyn11 = topic__soy137.title;
+                        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
                       ie_close('h3');
                     ie_close('a');
                   ie_close('div');

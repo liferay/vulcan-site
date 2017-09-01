@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([12],[
+webpackJsonppageComponent([6],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2221,8 +2221,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
           'class', 'container-hybrid');
         ie_open('h1', null, null,
             'class', 'title');
-          var dyn2 = opt_data.page.title;
-          if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
+          var dyn0 = opt_data.page.title;
+          if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2234,8 +2234,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'docs-content col-xs-16 col-md-9');
           ie_open('div', null, null,
               'class', 'guide-content');
-            var dyn3 = opt_data.content;
-            if (typeof dyn3 == 'function') dyn3(); else if (dyn3 != null) itext(dyn3);
+            var dyn1 = opt_data.content;
+            if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
           ie_close('div');
           if (opt_data.site.githubRepo) {
             $contribute(opt_data, null, opt_ijData);
@@ -2375,8 +2375,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('main', null, null,
         'class', 'content');
       $templateAlias1(opt_data, null, opt_ijData);
-      var dyn4 = opt_data.content;
-      if (typeof dyn4 == 'function') dyn4(); else if (dyn4 != null) itext(dyn4);
+      var dyn2 = opt_data.content;
+      if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
     ie_close('main');
   ie_close('div');
 }
@@ -11667,12 +11667,22 @@ module.exports = Uri;
 /* 97 */,
 /* 98 */,
 /* 99 */,
-/* 100 */
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "uOhGW", function() { return uOhGW; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mGBoy", function() { return mGBoy; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11684,15 +11694,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from mapping-models-with-the-collection-mapper.soy.
+// This file was automatically generated from introduction-to-rest.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace uOhGW.
+ * @fileoverview Templates in namespace mGBoy.
  * @public
  */
 
-goog.module('uOhGW.incrementaldom');
+goog.module('mGBoy.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11724,10 +11734,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param212 = function() {
+  var param309 = function() {
     ie_open('h6');
-      var dyn17 = opt_data.page.description;
-      if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
+      var dyn23 = opt_data.page.description;
+      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11789,11 +11799,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param212}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param309}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'uOhGW.render';
+  $render.soyTemplateName = 'mGBoy.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11803,24 +11813,14 @@ return exports;
 
 });
 
-class uOhGW extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(uOhGW, templates);
+class mGBoy extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(mGBoy, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
 /* 111 */,
 /* 112 */,
 /* 113 */,
@@ -11830,7 +11830,13 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(uOhGW, templates);
 /* 117 */,
 /* 118 */,
 /* 119 */,
-/* 120 */
+/* 120 */,
+/* 121 */,
+/* 122 */,
+/* 123 */,
+/* 124 */,
+/* 125 */,
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11858,9 +11864,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _mappingModelsWithTheCollectionMapperSoy = __webpack_require__(100);
+var _introductionToRestSoy = __webpack_require__(110);
 
-var _mappingModelsWithTheCollectionMapperSoy2 = _interopRequireDefault(_mappingModelsWithTheCollectionMapperSoy);
+var _introductionToRestSoy2 = _interopRequireDefault(_introductionToRestSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11870,23 +11876,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var uOhGW = function (_Component) {
-  _inherits(uOhGW, _Component);
+var mGBoy = function (_Component) {
+  _inherits(mGBoy, _Component);
 
-  function uOhGW() {
-    _classCallCheck(this, uOhGW);
+  function mGBoy() {
+    _classCallCheck(this, mGBoy);
 
-    return _possibleConstructorReturn(this, (uOhGW.__proto__ || Object.getPrototypeOf(uOhGW)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (mGBoy.__proto__ || Object.getPrototypeOf(mGBoy)).apply(this, arguments));
   }
 
-  return uOhGW;
+  return mGBoy;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(uOhGW, _mappingModelsWithTheCollectionMapperSoy2.default);
+_metalSoy2.default.register(mGBoy, _introductionToRestSoy2.default);
 
-exports.default = uOhGW;
+exports.default = mGBoy;
 
 /***/ })
-],[120]);
+],[126]);

@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([15],[
+webpackJsonppageComponent([14],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2221,8 +2221,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
           'class', 'container-hybrid');
         ie_open('h1', null, null,
             'class', 'title');
-          var dyn2 = opt_data.page.title;
-          if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
+          var dyn0 = opt_data.page.title;
+          if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2234,8 +2234,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'docs-content col-xs-16 col-md-9');
           ie_open('div', null, null,
               'class', 'guide-content');
-            var dyn3 = opt_data.content;
-            if (typeof dyn3 == 'function') dyn3(); else if (dyn3 != null) itext(dyn3);
+            var dyn1 = opt_data.content;
+            if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
           ie_close('div');
           if (opt_data.site.githubRepo) {
             $contribute(opt_data, null, opt_ijData);
@@ -2375,8 +2375,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('main', null, null,
         'class', 'content');
       $templateAlias1(opt_data, null, opt_ijData);
-      var dyn4 = opt_data.content;
-      if (typeof dyn4 == 'function') dyn4(); else if (dyn4 != null) itext(dyn4);
+      var dyn2 = opt_data.content;
+      if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
     ie_close('main');
   ie_close('div');
 }
@@ -11665,15 +11665,12 @@ module.exports = Uri;
 /* 95 */,
 /* 96 */,
 /* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "esvTN", function() { return esvTN; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cgeUA", function() { return cgeUA; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11685,15 +11682,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from quick-start-to-build-a-vulcan-api.soy.
+// This file was automatically generated from creating-a-new-liferay-portal-api-with-vulcan.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace esvTN.
+ * @fileoverview Templates in namespace cgeUA.
  * @public
  */
 
-goog.module('esvTN.incrementaldom');
+goog.module('cgeUA.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11725,10 +11722,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param223 = function() {
+  var param195 = function() {
     ie_open('h6');
-      var dyn18 = opt_data.page.description;
-      if (typeof dyn18 == 'function') dyn18(); else if (dyn18 != null) itext(dyn18);
+      var dyn16 = opt_data.page.description;
+      if (typeof dyn16 == 'function') dyn16(); else if (dyn16 != null) itext(dyn16);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11790,11 +11787,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param223}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param195}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'esvTN.render';
+  $render.soyTemplateName = 'cgeUA.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11804,14 +11801,17 @@ return exports;
 
 });
 
-class esvTN extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(esvTN, templates);
+class cgeUA extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(cgeUA, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 99 */,
+/* 100 */,
+/* 101 */,
 /* 102 */,
 /* 103 */,
 /* 104 */,
@@ -11827,7 +11827,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(esvTN, templates);
 /* 114 */,
 /* 115 */,
 /* 116 */,
-/* 117 */
+/* 117 */,
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11855,9 +11856,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _quickStartToBuildAVulcanApiSoy = __webpack_require__(101);
+var _creatingANewLiferayPortalApiWithVulcanSoy = __webpack_require__(98);
 
-var _quickStartToBuildAVulcanApiSoy2 = _interopRequireDefault(_quickStartToBuildAVulcanApiSoy);
+var _creatingANewLiferayPortalApiWithVulcanSoy2 = _interopRequireDefault(_creatingANewLiferayPortalApiWithVulcanSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11867,23 +11868,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var esvTN = function (_Component) {
-  _inherits(esvTN, _Component);
+var cgeUA = function (_Component) {
+  _inherits(cgeUA, _Component);
 
-  function esvTN() {
-    _classCallCheck(this, esvTN);
+  function cgeUA() {
+    _classCallCheck(this, cgeUA);
 
-    return _possibleConstructorReturn(this, (esvTN.__proto__ || Object.getPrototypeOf(esvTN)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (cgeUA.__proto__ || Object.getPrototypeOf(cgeUA)).apply(this, arguments));
   }
 
-  return esvTN;
+  return cgeUA;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(esvTN, _quickStartToBuildAVulcanApiSoy2.default);
+_metalSoy2.default.register(cgeUA, _creatingANewLiferayPortalApiWithVulcanSoy2.default);
 
-exports.default = esvTN;
+exports.default = cgeUA;
 
 /***/ })
-],[117]);
+],[118]);

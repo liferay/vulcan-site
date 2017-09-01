@@ -2221,8 +2221,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
           'class', 'container-hybrid');
         ie_open('h1', null, null,
             'class', 'title');
-          var dyn2 = opt_data.page.title;
-          if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
+          var dyn0 = opt_data.page.title;
+          if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2234,8 +2234,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'docs-content col-xs-16 col-md-9');
           ie_open('div', null, null,
               'class', 'guide-content');
-            var dyn3 = opt_data.content;
-            if (typeof dyn3 == 'function') dyn3(); else if (dyn3 != null) itext(dyn3);
+            var dyn1 = opt_data.content;
+            if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
           ie_close('div');
           if (opt_data.site.githubRepo) {
             $contribute(opt_data, null, opt_ijData);
@@ -2375,8 +2375,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('main', null, null,
         'class', 'content');
       $templateAlias1(opt_data, null, opt_ijData);
-      var dyn4 = opt_data.content;
-      if (typeof dyn4 == 'function') dyn4(); else if (dyn4 != null) itext(dyn4);
+      var dyn2 = opt_data.content;
+      if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
     ie_close('main');
   ie_close('div');
 }
@@ -11720,12 +11720,12 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param124 = function() {
+  var param167 = function() {
     $header(opt_data, null, opt_ijData);
     $intro(null, null, opt_ijData);
     $features(null, null, opt_ijData);
   };
-  $templateAlias1(soy.$$assignDefaults({content: param124}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param167}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11751,13 +11751,13 @@ function $header(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-md-12 col-md-offset-2');
           ie_open('h1', null, null,
               'class', 'docs-home-top-title');
-            var dyn9 = opt_data.page.title;
-            if (typeof dyn9 == 'function') dyn9(); else if (dyn9 != null) itext(dyn9);
+            var dyn13 = opt_data.page.title;
+            if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
           ie_close('h1');
           ie_open('h2', null, null,
               'class', 'docs-home-top-description');
-            var dyn10 = opt_data.page.description;
-            if (typeof dyn10 == 'function') dyn10(); else if (dyn10 != null) itext(dyn10);
+            var dyn14 = opt_data.page.description;
+            if (typeof dyn14 == 'function') dyn14(); else if (dyn14 != null) itext(dyn14);
           ie_close('h2');
         ie_close('div');
       ie_close('div');

@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([16],[
+webpackJsonppageComponent([11],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2221,8 +2221,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
           'class', 'container-hybrid');
         ie_open('h1', null, null,
             'class', 'title');
-          var dyn2 = opt_data.page.title;
-          if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
+          var dyn0 = opt_data.page.title;
+          if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2234,8 +2234,8 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'docs-content col-xs-16 col-md-9');
           ie_open('div', null, null,
               'class', 'guide-content');
-            var dyn3 = opt_data.content;
-            if (typeof dyn3 == 'function') dyn3(); else if (dyn3 != null) itext(dyn3);
+            var dyn1 = opt_data.content;
+            if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
           ie_close('div');
           if (opt_data.site.githubRepo) {
             $contribute(opt_data, null, opt_ijData);
@@ -2375,8 +2375,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('main', null, null,
         'class', 'content');
       $templateAlias1(opt_data, null, opt_ijData);
-      var dyn4 = opt_data.content;
-      if (typeof dyn4 == 'function') dyn4(); else if (dyn4 != null) itext(dyn4);
+      var dyn2 = opt_data.content;
+      if (typeof dyn2 == 'function') dyn2(); else if (dyn2 != null) itext(dyn2);
     ie_close('main');
   ie_close('div');
 }
@@ -11664,12 +11664,18 @@ module.exports = Uri;
 /* 94 */,
 /* 95 */,
 /* 96 */,
-/* 97 */
+/* 97 */,
+/* 98 */,
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HqZDX", function() { return HqZDX; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmSoZ", function() { return AmSoZ; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11681,15 +11687,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from adding-support-for-a-new-mime-type.soy.
+// This file was automatically generated from quick-start-to-build-a-vulcan-consumer.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace HqZDX.
+ * @fileoverview Templates in namespace AmSoZ.
  * @public
  */
 
-goog.module('HqZDX.incrementaldom');
+goog.module('AmSoZ.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11710,6 +11716,8 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
+var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricCode.incrementaldom', 'render');
+
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
 
 
@@ -11721,16 +11729,19 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param184 = function() {
+  var param240 = function() {
     ie_open('h6');
-      var dyn15 = opt_data.page.description;
-      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
+      var dyn19 = opt_data.page.description;
+      if (typeof dyn19 == 'function') dyn19(); else if (dyn19 != null) itext(dyn19);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
         itext('Lorem ipsum dolor sit amet');
       ie_close('h2');
+      $templateAlias2({code: 'JavaScriptDemo\n    .data(\'https://<serviceID>-<projectID>\')\n    .create(\'movies\', {\n        "title": "Star Wars IV",\n        "year": 1977,\n        "rating": 8.7\n    }).then(function(movie) {\n        console.log(movie);\n    });', mode: 'javascript'}, null, opt_ijData);
+      $templateAlias2({code: 'SwiftDemo\n    .data(\'https://<serviceID>-<projectID>\')\n    .create(resource: "movies", object: [\n        "title" : "Star Wars IV",\n        "year" : 1977,\n        "ratings" : 8.7\n    ])\n    .then { movie in\n        print(movie)\n    }', mode: 'swift'}, null, opt_ijData);
+      $templateAlias2({code: 'JSONObject movieJsonObject = new JSONObject()\n    .put("title", "Star Wars IV")\n    .put("year", 1977)\n    .put("rating", 8.7);\n\nExample\n    .data(\'https://<serviceID>-<projectID>\')\n    .create("movies", movieJsonObject)\n    .execute();', mode: 'text/x-java'}, null, opt_ijData);
       ie_open('p');
         itext('Nam eu lobortis ipsum. Sed iaculis, lectus pharetra vehicula luctus, lacus sapien malesuada lacus, non convallis dui mauris a magna. Donec accumsan mi lorem, quis mollis sem tempor vel. Fusce iaculis facilisis accumsan. Sed tempus aliquam nisi, eget commodo quam sodales ut. Duis lacus velit, fringilla congue aliquet nec, vulputate vitae nulla. Aenean ultricies risus vel sapien tincidunt, nec hendrerit purus aliquam. Quisque varius accumsan condimentum. Aliquam erat volutpat.');
       ie_close('p');
@@ -11786,11 +11797,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param184}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param240}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'HqZDX.render';
+  $render.soyTemplateName = 'AmSoZ.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11800,20 +11811,14 @@ return exports;
 
 });
 
-class HqZDX extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(HqZDX, templates);
+class AmSoZ extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(AmSoZ, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
 /* 104 */,
 /* 105 */,
 /* 106 */,
@@ -11826,7 +11831,12 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(HqZDX, templates);
 /* 113 */,
 /* 114 */,
 /* 115 */,
-/* 116 */
+/* 116 */,
+/* 117 */,
+/* 118 */,
+/* 119 */,
+/* 120 */,
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11854,9 +11864,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _addingSupportForANewMimeTypeSoy = __webpack_require__(97);
+var _quickStartToBuildAVulcanConsumerSoy = __webpack_require__(103);
 
-var _addingSupportForANewMimeTypeSoy2 = _interopRequireDefault(_addingSupportForANewMimeTypeSoy);
+var _quickStartToBuildAVulcanConsumerSoy2 = _interopRequireDefault(_quickStartToBuildAVulcanConsumerSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11866,23 +11876,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var HqZDX = function (_Component) {
-  _inherits(HqZDX, _Component);
+var AmSoZ = function (_Component) {
+  _inherits(AmSoZ, _Component);
 
-  function HqZDX() {
-    _classCallCheck(this, HqZDX);
+  function AmSoZ() {
+    _classCallCheck(this, AmSoZ);
 
-    return _possibleConstructorReturn(this, (HqZDX.__proto__ || Object.getPrototypeOf(HqZDX)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (AmSoZ.__proto__ || Object.getPrototypeOf(AmSoZ)).apply(this, arguments));
   }
 
-  return HqZDX;
+  return AmSoZ;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(HqZDX, _addingSupportForANewMimeTypeSoy2.default);
+_metalSoy2.default.register(AmSoZ, _quickStartToBuildAVulcanConsumerSoy2.default);
 
-exports.default = HqZDX;
+exports.default = AmSoZ;
 
 /***/ })
-],[116]);
+],[121]);
