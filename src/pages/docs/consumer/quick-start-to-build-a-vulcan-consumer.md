@@ -11,8 +11,39 @@ weight: 1
 
 ## Lorem ipsum dolor sit amet
 
-```xml
-<p>Test, test, test</p>
+```javascript
+JavaScriptDemo
+	.data('https://<serviceID>-<projectID>')
+	.create('movies', {
+		"title": "Star Wars IV",
+		"year": 1977,
+		"rating": 8.7
+	}).then(function(movie) {
+		console.log(movie);
+	});
+```
+```swift
+SwiftDemo
+	.data('https://<serviceID>-<projectID>')
+	.create(resource: "movies", object: [
+		"title" : "Star Wars IV",
+		"year" : 1977,
+		"ratings" : 8.7
+	])
+	.then { movie in
+		print(movie)
+	}
+```
+```text/x-java
+JSONObject movieJsonObject = new JSONObject()
+	.put("title", "Star Wars IV")
+	.put("year", 1977)
+	.put("rating", 8.7);
+
+Example
+	.data('https://<serviceID>-<projectID>')
+	.create("movies", movieJsonObject)
+	.execute();
 ```
 
 Nam eu lobortis ipsum. Sed iaculis, lectus pharetra vehicula luctus, lacus sapien malesuada lacus, non convallis dui mauris a magna. Donec accumsan mi lorem, quis mollis sem tempor vel. Fusce iaculis facilisis accumsan. Sed tempus aliquam nisi, eget commodo quam sodales ut. Duis lacus velit, fringilla congue aliquet nec, vulputate vitae nulla. Aenean ultricies risus vel sapien tincidunt, nec hendrerit purus aliquam. Quisque varius accumsan condimentum. Aliquam erat volutpat.
