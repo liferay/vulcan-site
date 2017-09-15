@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([17],[
+webpackJsonppageComponent([16],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11668,12 +11668,13 @@ module.exports = function(module) {
 /* 94 */,
 /* 95 */,
 /* 96 */,
-/* 97 */
+/* 97 */,
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "qvDvO", function() { return qvDvO; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CquiT", function() { return CquiT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11685,15 +11686,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from adding-support-for-a-new-mime-type.soy.
+// This file was automatically generated from creating-a-new-liferay-portal-api-with-vulcan.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace qvDvO.
+ * @fileoverview Templates in namespace CquiT.
  * @public
  */
 
-goog.module('qvDvO.incrementaldom');
+goog.module('CquiT.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11725,10 +11726,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param201 = function() {
+  var param212 = function() {
     ie_open('h6');
-      var dyn17 = opt_data.page.description;
-      if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
+      var dyn18 = opt_data.page.description;
+      if (typeof dyn18 == 'function') dyn18(); else if (dyn18 != null) itext(dyn18);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11790,11 +11791,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param201}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param212}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'qvDvO.render';
+  $render.soyTemplateName = 'CquiT.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11804,15 +11805,14 @@ return exports;
 
 });
 
-class qvDvO extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(qvDvO, templates);
+class CquiT extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(CquiT, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 98 */,
 /* 99 */,
 /* 100 */,
 /* 101 */,
@@ -11863,10 +11863,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(qvDvO, templates);
 /* 146 */,
 /* 147 */,
 /* 148 */,
-/* 149 */,
-/* 150 */,
-/* 151 */,
-/* 152 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11894,9 +11891,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _addingSupportForANewMimeTypeSoy = __webpack_require__(97);
+var _creatingANewLiferayPortalApiWithVulcanSoy = __webpack_require__(98);
 
-var _addingSupportForANewMimeTypeSoy2 = _interopRequireDefault(_addingSupportForANewMimeTypeSoy);
+var _creatingANewLiferayPortalApiWithVulcanSoy2 = _interopRequireDefault(_creatingANewLiferayPortalApiWithVulcanSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11906,23 +11903,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var qvDvO = function (_Component) {
-  _inherits(qvDvO, _Component);
+var CquiT = function (_Component) {
+  _inherits(CquiT, _Component);
 
-  function qvDvO() {
-    _classCallCheck(this, qvDvO);
+  function CquiT() {
+    _classCallCheck(this, CquiT);
 
-    return _possibleConstructorReturn(this, (qvDvO.__proto__ || Object.getPrototypeOf(qvDvO)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (CquiT.__proto__ || Object.getPrototypeOf(CquiT)).apply(this, arguments));
   }
 
-  return qvDvO;
+  return CquiT;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(qvDvO, _addingSupportForANewMimeTypeSoy2.default);
+_metalSoy2.default.register(CquiT, _creatingANewLiferayPortalApiWithVulcanSoy2.default);
 
-exports.default = qvDvO;
+exports.default = CquiT;
 
 /***/ })
-],[152]);
+],[149]);

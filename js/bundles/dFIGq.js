@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([3],[
+webpackJsonppageComponent([11],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11674,20 +11674,12 @@ module.exports = function(module) {
 /* 100 */,
 /* 101 */,
 /* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UMnwf", function() { return UMnwf; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dFIGq", function() { return dFIGq; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11699,15 +11691,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from understanding-hypermedia.soy.
+// This file was automatically generated from quick-start-to-build-a-vulcan-consumer.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace UMnwf.
+ * @fileoverview Templates in namespace dFIGq.
  * @public
  */
 
-goog.module('UMnwf.incrementaldom');
+goog.module('dFIGq.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11728,6 +11720,8 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
+var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricCode.incrementaldom', 'render');
+
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
 
 
@@ -11739,21 +11733,21 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param337 = function() {
+  var param285 = function() {
     ie_open('h6');
-      var dyn26 = opt_data.page.description;
-      if (typeof dyn26 == 'function') dyn26(); else if (dyn26 != null) itext(dyn26);
+      var dyn23 = opt_data.page.description;
+      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
         itext('Lorem ipsum dolor sit amet');
       ie_close('h2');
+      $templateAlias2({code: 'JavaScriptDemo\n    .data(\'https://<serviceID>-<projectID>\')\n    .create(\'movies\', {\n        "title": "Star Wars IV",\n        "year": 1977,\n        "rating": 8.7\n    }).then(function(movie) {\n        console.log(movie);\n    });', mode: 'javascript'}, null, opt_ijData);
+      $templateAlias2({code: 'SwiftDemo\n    .data(\'https://<serviceID>-<projectID>\')\n    .create(resource: "movies", object: [\n        "title" : "Star Wars IV",\n        "year" : 1977,\n        "ratings" : 8.7\n    ])\n    .then { movie in\n        print(movie)\n    }', mode: 'swift'}, null, opt_ijData);
+      $templateAlias2({code: 'JSONObject movieJsonObject = new JSONObject()\n    .put("title", "Star Wars IV")\n    .put("year", 1977)\n    .put("rating", 8.7);\n\nExample\n    .data(\'https://<serviceID>-<projectID>\')\n    .create("movies", movieJsonObject)\n    .execute();', mode: 'text/x-java'}, null, opt_ijData);
       ie_open('p');
-        itext('Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque varius mattis mollis. Praesent rutrum tempor libero sit amet blandit. Integer ante nisl, rutrum ut volutpat ut, rutrum id tortor. Duis placerat ut ipsum id aliquam. Nunc venenatis sem ac urna viverra, eu euismod sapien porttitor.');
-      ie_close('p');
-      ie_open('p');
-        itext('Nulla a suscipit nibh. Duis tincidunt elit tellus, ut volutpat lectus pharetra at. Nulla quis nisi ante. Maecenas vulputate convallis lorem. Vestibulum at ex id sapien faucibus vehicula. Sed porta dui in velit semper blandit. Ut in commodo magna. Morbi luctus enim et lectus luctus ullamcorper. Proin tellus erat, convallis vitae metus vitae, lacinia consectetur turpis.');
+        itext('Nam eu lobortis ipsum. Sed iaculis, lectus pharetra vehicula luctus, lacus sapien malesuada lacus, non convallis dui mauris a magna. Donec accumsan mi lorem, quis mollis sem tempor vel. Fusce iaculis facilisis accumsan. Sed tempus aliquam nisi, eget commodo quam sodales ut. Duis lacus velit, fringilla congue aliquet nec, vulputate vitae nulla. Aenean ultricies risus vel sapien tincidunt, nec hendrerit purus aliquam. Quisque varius accumsan condimentum. Aliquam erat volutpat.');
       ie_close('p');
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
@@ -11807,11 +11801,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param337}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param285}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'UMnwf.render';
+  $render.soyTemplateName = 'dFIGq.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11821,14 +11815,22 @@ return exports;
 
 });
 
-class UMnwf extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(UMnwf, templates);
+class dFIGq extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(dFIGq, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */,
 /* 112 */,
 /* 113 */,
 /* 114 */,
@@ -11871,14 +11873,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(UMnwf, templates);
 /* 151 */,
 /* 152 */,
 /* 153 */,
-/* 154 */,
-/* 155 */,
-/* 156 */,
-/* 157 */,
-/* 158 */,
-/* 159 */,
-/* 160 */,
-/* 161 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11906,9 +11901,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _understandingHypermediaSoy = __webpack_require__(111);
+var _quickStartToBuildAVulcanConsumerSoy = __webpack_require__(103);
 
-var _understandingHypermediaSoy2 = _interopRequireDefault(_understandingHypermediaSoy);
+var _quickStartToBuildAVulcanConsumerSoy2 = _interopRequireDefault(_quickStartToBuildAVulcanConsumerSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11918,23 +11913,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var UMnwf = function (_Component) {
-  _inherits(UMnwf, _Component);
+var dFIGq = function (_Component) {
+  _inherits(dFIGq, _Component);
 
-  function UMnwf() {
-    _classCallCheck(this, UMnwf);
+  function dFIGq() {
+    _classCallCheck(this, dFIGq);
 
-    return _possibleConstructorReturn(this, (UMnwf.__proto__ || Object.getPrototypeOf(UMnwf)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (dFIGq.__proto__ || Object.getPrototypeOf(dFIGq)).apply(this, arguments));
   }
 
-  return UMnwf;
+  return dFIGq;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(UMnwf, _understandingHypermediaSoy2.default);
+_metalSoy2.default.register(dFIGq, _quickStartToBuildAVulcanConsumerSoy2.default);
 
-exports.default = UMnwf;
+exports.default = dFIGq;
 
 /***/ })
-],[161]);
+],[154]);

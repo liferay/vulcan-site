@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([14],[
+webpackJsonppageComponent([10],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11671,12 +11671,16 @@ module.exports = function(module) {
 /* 97 */,
 /* 98 */,
 /* 99 */,
-/* 100 */
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jIIIZ", function() { return jIIIZ; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "qKaWX", function() { return qKaWX; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11688,15 +11692,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from mapping-models-with-the-collection-mapper.soy.
+// This file was automatically generated from consumer-guidelines.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace jIIIZ.
+ * @fileoverview Templates in namespace qKaWX.
  * @public
  */
 
-goog.module('jIIIZ.incrementaldom');
+goog.module('qKaWX.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11728,10 +11732,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param229 = function() {
+  var param251 = function() {
     ie_open('h6');
-      var dyn19 = opt_data.page.description;
-      if (typeof dyn19 == 'function') dyn19(); else if (dyn19 != null) itext(dyn19);
+      var dyn21 = opt_data.page.description;
+      if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11793,11 +11797,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param229}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param251}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'jIIIZ.render';
+  $render.soyTemplateName = 'qKaWX.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11807,18 +11811,14 @@ return exports;
 
 });
 
-class jIIIZ extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(jIIIZ, templates);
+class qKaWX extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(qKaWX, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
 /* 105 */,
 /* 106 */,
 /* 107 */,
@@ -11864,7 +11864,15 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(jIIIZ, templates);
 /* 147 */,
 /* 148 */,
 /* 149 */,
-/* 150 */
+/* 150 */,
+/* 151 */,
+/* 152 */,
+/* 153 */,
+/* 154 */,
+/* 155 */,
+/* 156 */,
+/* 157 */,
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11892,9 +11900,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _mappingModelsWithTheCollectionMapperSoy = __webpack_require__(100);
+var _consumerGuidelinesSoy = __webpack_require__(104);
 
-var _mappingModelsWithTheCollectionMapperSoy2 = _interopRequireDefault(_mappingModelsWithTheCollectionMapperSoy);
+var _consumerGuidelinesSoy2 = _interopRequireDefault(_consumerGuidelinesSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11904,23 +11912,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var jIIIZ = function (_Component) {
-  _inherits(jIIIZ, _Component);
+var qKaWX = function (_Component) {
+  _inherits(qKaWX, _Component);
 
-  function jIIIZ() {
-    _classCallCheck(this, jIIIZ);
+  function qKaWX() {
+    _classCallCheck(this, qKaWX);
 
-    return _possibleConstructorReturn(this, (jIIIZ.__proto__ || Object.getPrototypeOf(jIIIZ)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (qKaWX.__proto__ || Object.getPrototypeOf(qKaWX)).apply(this, arguments));
   }
 
-  return jIIIZ;
+  return qKaWX;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(jIIIZ, _mappingModelsWithTheCollectionMapperSoy2.default);
+_metalSoy2.default.register(qKaWX, _consumerGuidelinesSoy2.default);
 
-exports.default = jIIIZ;
+exports.default = qKaWX;
 
 /***/ })
-],[150]);
+],[158]);

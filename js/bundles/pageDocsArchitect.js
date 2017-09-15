@@ -11828,7 +11828,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageDocsArchitect, te
 /* 148 */,
 /* 149 */,
 /* 150 */,
-/* 151 */
+/* 151 */,
+/* 152 */,
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11887,4 +11889,4 @@ _metalSoy2.default.register(pageDocsArchitect, _indexSoy2.default);
 exports.default = pageDocsArchitect;
 
 /***/ })
-],[151]);
+],[153]);
