@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([15],[
+webpackJsonppageComponent([16],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11669,13 +11669,12 @@ module.exports = function(module) {
 /* 95 */,
 /* 96 */,
 /* 97 */,
-/* 98 */,
-/* 99 */
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageDocsArchitect", function() { return pageDocsArchitect; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ZUCGQ", function() { return ZUCGQ; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11687,15 +11686,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from creating-a-new-liferay-portal-api-with-vulcan.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageDocsArchitect.
+ * @fileoverview Templates in namespace ZUCGQ.
  * @public
  */
 
-goog.module('pageDocsArchitect.incrementaldom');
+goog.module('ZUCGQ.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11716,6 +11715,8 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
+var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
+
 
 /**
  * @param {Object<string, *>=} opt_data
@@ -11725,58 +11726,94 @@ var iattr = IncrementalDom.attr;
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
+  var param212 = function() {
+    ie_open('h6');
+      var dyn18 = opt_data.page.description;
+      if (typeof dyn18 == 'function') dyn18(); else if (dyn18 != null) itext(dyn18);
+    ie_close('h6');
+    ie_open('article', null, null,
+        'id', '1');
+      ie_open('h2');
+        itext('Lorem ipsum dolor sit amet');
+      ie_close('h2');
+      ie_open('p');
+        itext('Nam eu lobortis ipsum. Sed iaculis, lectus pharetra vehicula luctus, lacus sapien malesuada lacus, non convallis dui mauris a magna. Donec accumsan mi lorem, quis mollis sem tempor vel. Fusce iaculis facilisis accumsan. Sed tempus aliquam nisi, eget commodo quam sodales ut. Duis lacus velit, fringilla congue aliquet nec, vulputate vitae nulla. Aenean ultricies risus vel sapien tincidunt, nec hendrerit purus aliquam. Quisque varius accumsan condimentum. Aliquam erat volutpat.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+    ie_close('article');
+    ie_open('article', null, null,
+        'id', '2');
+      ie_open('h2');
+        itext('Lorem ipsum dolor sit amet');
+      ie_close('h2');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+    ie_close('article');
+    ie_open('article', null, null,
+        'id', '3');
+      ie_open('h2');
+        itext('Lorem ipsum dolor sit amet');
+      ie_close('h2');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+    ie_close('article');
+    ie_open('input', null, null,
+        'type', 'hidden',
+        'value', opt_data.page.title);
+    ie_close('input');
+    ie_open('input', null, null,
+        'type', 'hidden',
+        'value', opt_data.site.title);
+    ie_close('input');
+  };
+  $templateAlias1(soy.$$assignDefaults({content: param212}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageDocsArchitect.render';
+  $render.soyTemplateName = 'ZUCGQ.render';
 }
 
-
-/**
- * @param {Object<string, *>=} opt_data
- * @param {(null|undefined)=} opt_ignored
- * @param {Object<string, *>=} opt_ijData
- * @return {void}
- * @suppress {checkTypes}
- */
-function $soyweb(opt_data, opt_ignored, opt_ijData) {
-  ie_open('!DOCTYPE', null, null,
-      'html', '');
-    ie_open('html', null, null,
-        'lang', 'en');
-      ie_open('head');
-        ie_open('meta', null, null,
-            'charset', 'UTF-8');
-        ie_close('meta');
-        ie_open('meta', null, null,
-            'http-equiv', 'refresh',
-            'content', '0; URL=\'' + opt_data.page.url + '\'');
-        ie_close('meta');
-      ie_close('head');
-    ie_close('html');
-  }
-  exports.soyweb = $soyweb;
-  if (goog.DEBUG) {
-    $soyweb.soyTemplateName = 'pageDocsArchitect.soyweb';
-  }
-
-exports.render.params = [];
-exports.render.types = {};
-exports.soyweb.params = ["page"];
-exports.soyweb.types = {"page":"any"};
+exports.render.params = ["page","site"];
+exports.render.types = {"page":"any","site":"any"};
 templates = exports;
 return exports;
 
 });
 
-class pageDocsArchitect extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageDocsArchitect, templates);
+class ZUCGQ extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(ZUCGQ, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 99 */,
 /* 100 */,
 /* 101 */,
 /* 102 */,
@@ -11826,9 +11863,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageDocsArchitect, te
 /* 146 */,
 /* 147 */,
 /* 148 */,
-/* 149 */,
-/* 150 */,
-/* 151 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11856,9 +11891,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _indexSoy = __webpack_require__(99);
+var _creatingANewLiferayPortalApiWithVulcanSoy = __webpack_require__(98);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _creatingANewLiferayPortalApiWithVulcanSoy2 = _interopRequireDefault(_creatingANewLiferayPortalApiWithVulcanSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11868,23 +11903,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageDocsArchitect = function (_Component) {
-  _inherits(pageDocsArchitect, _Component);
+var ZUCGQ = function (_Component) {
+  _inherits(ZUCGQ, _Component);
 
-  function pageDocsArchitect() {
-    _classCallCheck(this, pageDocsArchitect);
+  function ZUCGQ() {
+    _classCallCheck(this, ZUCGQ);
 
-    return _possibleConstructorReturn(this, (pageDocsArchitect.__proto__ || Object.getPrototypeOf(pageDocsArchitect)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (ZUCGQ.__proto__ || Object.getPrototypeOf(ZUCGQ)).apply(this, arguments));
   }
 
-  return pageDocsArchitect;
+  return ZUCGQ;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageDocsArchitect, _indexSoy2.default);
+_metalSoy2.default.register(ZUCGQ, _creatingANewLiferayPortalApiWithVulcanSoy2.default);
 
-exports.default = pageDocsArchitect;
+exports.default = ZUCGQ;
 
 /***/ })
-],[151]);
+],[149]);

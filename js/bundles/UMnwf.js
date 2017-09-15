@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([15],[
+webpackJsonppageComponent([3],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11670,12 +11670,24 @@ module.exports = function(module) {
 /* 96 */,
 /* 97 */,
 /* 98 */,
-/* 99 */
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageDocsArchitect", function() { return pageDocsArchitect; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UMnwf", function() { return UMnwf; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11687,15 +11699,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from understanding-hypermedia.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageDocsArchitect.
+ * @fileoverview Templates in namespace UMnwf.
  * @public
  */
 
-goog.module('pageDocsArchitect.incrementaldom');
+goog.module('UMnwf.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11716,6 +11728,8 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
+var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
+
 
 /**
  * @param {Object<string, *>=} opt_data
@@ -11725,70 +11739,96 @@ var iattr = IncrementalDom.attr;
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
+  var param337 = function() {
+    ie_open('h6');
+      var dyn26 = opt_data.page.description;
+      if (typeof dyn26 == 'function') dyn26(); else if (dyn26 != null) itext(dyn26);
+    ie_close('h6');
+    ie_open('article', null, null,
+        'id', '1');
+      ie_open('h2');
+        itext('Lorem ipsum dolor sit amet');
+      ie_close('h2');
+      ie_open('p');
+        itext('Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque varius mattis mollis. Praesent rutrum tempor libero sit amet blandit. Integer ante nisl, rutrum ut volutpat ut, rutrum id tortor. Duis placerat ut ipsum id aliquam. Nunc venenatis sem ac urna viverra, eu euismod sapien porttitor.');
+      ie_close('p');
+      ie_open('p');
+        itext('Nulla a suscipit nibh. Duis tincidunt elit tellus, ut volutpat lectus pharetra at. Nulla quis nisi ante. Maecenas vulputate convallis lorem. Vestibulum at ex id sapien faucibus vehicula. Sed porta dui in velit semper blandit. Ut in commodo magna. Morbi luctus enim et lectus luctus ullamcorper. Proin tellus erat, convallis vitae metus vitae, lacinia consectetur turpis.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+    ie_close('article');
+    ie_open('article', null, null,
+        'id', '2');
+      ie_open('h2');
+        itext('Lorem ipsum dolor sit amet');
+      ie_close('h2');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+    ie_close('article');
+    ie_open('article', null, null,
+        'id', '3');
+      ie_open('h2');
+        itext('Lorem ipsum dolor sit amet');
+      ie_close('h2');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+    ie_close('article');
+    ie_open('input', null, null,
+        'type', 'hidden',
+        'value', opt_data.page.title);
+    ie_close('input');
+    ie_open('input', null, null,
+        'type', 'hidden',
+        'value', opt_data.site.title);
+    ie_close('input');
+  };
+  $templateAlias1(soy.$$assignDefaults({content: param337}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageDocsArchitect.render';
+  $render.soyTemplateName = 'UMnwf.render';
 }
 
-
-/**
- * @param {Object<string, *>=} opt_data
- * @param {(null|undefined)=} opt_ignored
- * @param {Object<string, *>=} opt_ijData
- * @return {void}
- * @suppress {checkTypes}
- */
-function $soyweb(opt_data, opt_ignored, opt_ijData) {
-  ie_open('!DOCTYPE', null, null,
-      'html', '');
-    ie_open('html', null, null,
-        'lang', 'en');
-      ie_open('head');
-        ie_open('meta', null, null,
-            'charset', 'UTF-8');
-        ie_close('meta');
-        ie_open('meta', null, null,
-            'http-equiv', 'refresh',
-            'content', '0; URL=\'' + opt_data.page.url + '\'');
-        ie_close('meta');
-      ie_close('head');
-    ie_close('html');
-  }
-  exports.soyweb = $soyweb;
-  if (goog.DEBUG) {
-    $soyweb.soyTemplateName = 'pageDocsArchitect.soyweb';
-  }
-
-exports.render.params = [];
-exports.render.types = {};
-exports.soyweb.params = ["page"];
-exports.soyweb.types = {"page":"any"};
+exports.render.params = ["page","site"];
+exports.render.types = {"page":"any","site":"any"};
 templates = exports;
 return exports;
 
 });
 
-class pageDocsArchitect extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageDocsArchitect, templates);
+class UMnwf extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(UMnwf, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */,
 /* 112 */,
 /* 113 */,
 /* 114 */,
@@ -11828,7 +11868,17 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageDocsArchitect, te
 /* 148 */,
 /* 149 */,
 /* 150 */,
-/* 151 */
+/* 151 */,
+/* 152 */,
+/* 153 */,
+/* 154 */,
+/* 155 */,
+/* 156 */,
+/* 157 */,
+/* 158 */,
+/* 159 */,
+/* 160 */,
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11856,9 +11906,9 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _indexSoy = __webpack_require__(99);
+var _understandingHypermediaSoy = __webpack_require__(111);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _understandingHypermediaSoy2 = _interopRequireDefault(_understandingHypermediaSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11868,23 +11918,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageDocsArchitect = function (_Component) {
-  _inherits(pageDocsArchitect, _Component);
+var UMnwf = function (_Component) {
+  _inherits(UMnwf, _Component);
 
-  function pageDocsArchitect() {
-    _classCallCheck(this, pageDocsArchitect);
+  function UMnwf() {
+    _classCallCheck(this, UMnwf);
 
-    return _possibleConstructorReturn(this, (pageDocsArchitect.__proto__ || Object.getPrototypeOf(pageDocsArchitect)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (UMnwf.__proto__ || Object.getPrototypeOf(UMnwf)).apply(this, arguments));
   }
 
-  return pageDocsArchitect;
+  return UMnwf;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageDocsArchitect, _indexSoy2.default);
+_metalSoy2.default.register(UMnwf, _understandingHypermediaSoy2.default);
 
-exports.default = pageDocsArchitect;
+exports.default = UMnwf;
 
 /***/ })
-],[151]);
+],[161]);

@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([15],[
+webpackJsonppageComponent([1],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11670,12 +11670,26 @@ module.exports = function(module) {
 /* 96 */,
 /* 97 */,
 /* 98 */,
-/* 99 */
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */,
+/* 112 */,
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageDocsArchitect", function() { return pageDocsArchitect; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageGuidelines", function() { return pageGuidelines; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11691,11 +11705,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageDocsArchitect.
+ * @fileoverview Templates in namespace pageGuidelines.
  * @public
  */
 
-goog.module('pageDocsArchitect.incrementaldom');
+goog.module('pageGuidelines.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11716,6 +11730,8 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
+var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('main.incrementaldom', 'render');
+
 
 /**
  * @param {Object<string, *>=} opt_data
@@ -11725,10 +11741,16 @@ var iattr = IncrementalDom.attr;
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
+  var param141 = function() {
+    $header(opt_data, null, opt_ijData);
+    $intro(null, null, opt_ijData);
+    $features(null, null, opt_ijData);
+  };
+  $templateAlias1(soy.$$assignDefaults({content: param141}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageDocsArchitect.render';
+  $render.soyTemplateName = 'pageGuidelines.render';
 }
 
 
@@ -11739,58 +11761,198 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function $soyweb(opt_data, opt_ignored, opt_ijData) {
-  ie_open('!DOCTYPE', null, null,
-      'html', '');
-    ie_open('html', null, null,
-        'lang', 'en');
-      ie_open('head');
-        ie_open('meta', null, null,
-            'charset', 'UTF-8');
-        ie_close('meta');
-        ie_open('meta', null, null,
-            'http-equiv', 'refresh',
-            'content', '0; URL=\'' + opt_data.page.url + '\'');
-        ie_close('meta');
-      ie_close('head');
-    ie_close('html');
-  }
-  exports.soyweb = $soyweb;
-  if (goog.DEBUG) {
-    $soyweb.soyTemplateName = 'pageDocsArchitect.soyweb';
-  }
+function $header(opt_data, opt_ignored, opt_ijData) {
+  ie_open('header', null, null,
+      'class', 'docs-home-top');
+    ie_open('div', null, null,
+        'class', 'container');
+      ie_open('div', null, null,
+          'class', 'row');
+        ie_open('div', null, null,
+            'class', 'col-md-12 col-md-offset-2');
+          ie_open('h1', null, null,
+              'class', 'docs-home-top-title');
+            var dyn11 = opt_data.page.title;
+            if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
+          ie_close('h1');
+          ie_open('h2', null, null,
+              'class', 'docs-home-top-description');
+            var dyn12 = opt_data.page.description;
+            if (typeof dyn12 == 'function') dyn12(); else if (dyn12 != null) itext(dyn12);
+          ie_close('h2');
+        ie_close('div');
+      ie_close('div');
+    ie_close('div');
+  ie_close('header');
+}
+exports.header = $header;
+if (goog.DEBUG) {
+  $header.soyTemplateName = 'pageGuidelines.header';
+}
 
-exports.render.params = [];
-exports.render.types = {};
-exports.soyweb.params = ["page"];
-exports.soyweb.types = {"page":"any"};
+
+/**
+ * @param {Object<string, *>=} opt_data
+ * @param {(null|undefined)=} opt_ignored
+ * @param {Object<string, *>=} opt_ijData
+ * @return {void}
+ * @suppress {checkTypes}
+ */
+function $intro(opt_data, opt_ignored, opt_ijData) {
+  ie_open('article', null, null,
+      'class', 'about');
+    ie_open('div', null, null,
+        'class', 'container');
+      ie_open('div', null, null,
+          'class', 'row');
+        ie_open('div', null, null,
+            'class', 'col-md-12 col-md-offset-2');
+          ie_open('h3', null, null,
+              'class', 'about-title');
+            itext('Evolvability & Discoverability');
+          ie_close('h3');
+          ie_open('p', null, null,
+              'class', 'about-description');
+            itext('Change happens. But changing a Web API can break its consumers. Versioning is a common solution to this problem, but it comes with strong drawbacks. Vulcan gives you a better way to deal with change. Vulcan APIs allow strong decoupling of API providers and consumers. Consumers therefore remain stable and even might not require code changes to gain features.');
+          ie_close('p');
+        ie_close('div');
+      ie_close('div');
+    ie_close('div');
+  ie_close('article');
+}
+exports.intro = $intro;
+if (goog.DEBUG) {
+  $intro.soyTemplateName = 'pageGuidelines.intro';
+}
+
+
+/**
+ * @param {Object<string, *>=} opt_data
+ * @param {(null|undefined)=} opt_ignored
+ * @param {Object<string, *>=} opt_ijData
+ * @return {void}
+ * @suppress {checkTypes}
+ */
+function $features(opt_data, opt_ignored, opt_ijData) {
+  ie_open('div', null, null,
+      'class', 'features');
+    ie_open('div', null, null,
+        'class', 'container');
+      ie_open('div', null, null,
+          'class', 'row');
+        ie_open('section', null, null,
+            'class', 'feature col-md-4 col-md-offset-2');
+          ie_open('div', null, null,
+              'class', 'feature-graphic');
+            ie_void('span', null, null,
+                'class', 'icon-16-bullhorn');
+          ie_close('div');
+          ie_open('h3', null, null,
+              'class', 'feature-title');
+            itext('Never hardcode navigation');
+          ie_close('h3');
+          ie_open('p', null, null,
+              'class', 'feature-description');
+            itext('Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.');
+          ie_close('p');
+        ie_close('section');
+        ie_open('section', null, null,
+            'class', 'feature col-md-4');
+          ie_open('div', null, null,
+              'class', 'feature-graphic');
+            ie_void('span', null, null,
+                'class', 'icon-16-lock');
+          ie_close('div');
+          ie_open('h3', null, null,
+              'class', 'feature-title');
+            itext('Support all standard link relations');
+          ie_close('h3');
+          ie_open('p', null, null,
+              'class', 'feature-description');
+            itext('Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.');
+          ie_close('p');
+        ie_close('section');
+        ie_open('section', null, null,
+            'class', 'feature col-md-4');
+          ie_open('div', null, null,
+              'class', 'feature-graphic');
+            ie_void('span', null, null,
+                'class', 'icon-16-calendar');
+          ie_close('div');
+          ie_open('h3', null, null,
+              'class', 'feature-title');
+            itext('Implement support for specific types');
+          ie_close('h3');
+          ie_open('p', null, null,
+              'class', 'feature-description');
+            itext('Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.');
+          ie_close('p');
+        ie_close('section');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row');
+        ie_open('section', null, null,
+            'class', 'feature col-md-4 col-md-offset-2');
+          ie_open('div', null, null,
+              'class', 'feature-graphic');
+            ie_void('span', null, null,
+                'class', 'icon-16-bullhorn');
+          ie_close('div');
+          ie_open('h3', null, null,
+              'class', 'feature-title');
+            itext('Apply the MUST IGNORE policy');
+          ie_close('h3');
+          ie_open('p', null, null,
+              'class', 'feature-description');
+            itext('Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.');
+          ie_close('p');
+        ie_close('section');
+        ie_open('section', null, null,
+            'class', 'feature col-md-4');
+          ie_open('div', null, null,
+              'class', 'feature-graphic');
+            ie_void('span', null, null,
+                'class', 'icon-16-lock');
+          ie_close('div');
+          ie_open('h3', null, null,
+              'class', 'feature-title');
+            itext('Never assume any attribute as mandatory');
+          ie_close('h3');
+          ie_open('p', null, null,
+              'class', 'feature-description');
+            itext('Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.');
+          ie_close('p');
+        ie_close('section');
+      ie_close('div');
+    ie_close('div');
+  ie_close('div');
+}
+exports.features = $features;
+if (goog.DEBUG) {
+  $features.soyTemplateName = 'pageGuidelines.features';
+}
+
+exports.render.params = ["site"];
+exports.render.types = {"site":"any"};
+exports.header.params = ["page"];
+exports.header.types = {"page":"any"};
+exports.intro.params = [];
+exports.intro.types = {};
+exports.features.params = [];
+exports.features.types = {};
 templates = exports;
 return exports;
 
 });
 
-class pageDocsArchitect extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageDocsArchitect, templates);
+class pageGuidelines extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageGuidelines, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */,
-/* 112 */,
-/* 113 */,
 /* 114 */,
 /* 115 */,
 /* 116 */,
@@ -11828,7 +11990,21 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageDocsArchitect, te
 /* 148 */,
 /* 149 */,
 /* 150 */,
-/* 151 */
+/* 151 */,
+/* 152 */,
+/* 153 */,
+/* 154 */,
+/* 155 */,
+/* 156 */,
+/* 157 */,
+/* 158 */,
+/* 159 */,
+/* 160 */,
+/* 161 */,
+/* 162 */,
+/* 163 */,
+/* 164 */,
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11856,7 +12032,7 @@ __webpack_require__(19);
 
 __webpack_require__(17);
 
-var _indexSoy = __webpack_require__(99);
+var _indexSoy = __webpack_require__(113);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -11868,23 +12044,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageDocsArchitect = function (_Component) {
-  _inherits(pageDocsArchitect, _Component);
+var pageGuidelines = function (_Component) {
+  _inherits(pageGuidelines, _Component);
 
-  function pageDocsArchitect() {
-    _classCallCheck(this, pageDocsArchitect);
+  function pageGuidelines() {
+    _classCallCheck(this, pageGuidelines);
 
-    return _possibleConstructorReturn(this, (pageDocsArchitect.__proto__ || Object.getPrototypeOf(pageDocsArchitect)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (pageGuidelines.__proto__ || Object.getPrototypeOf(pageGuidelines)).apply(this, arguments));
   }
 
-  return pageDocsArchitect;
+  return pageGuidelines;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageDocsArchitect, _indexSoy2.default);
+_metalSoy2.default.register(pageGuidelines, _indexSoy2.default);
 
-exports.default = pageDocsArchitect;
+exports.default = pageGuidelines;
 
 /***/ })
-],[151]);
+],[165]);
